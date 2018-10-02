@@ -1,0 +1,60 @@
+.profile-icon {
+  border: 8px solid #fff;
+  border-radius: 50%;
+  bottom: -67px;
+  height: 134px;
+  left: calc(50% - 67px);
+  position: absolute;
+}
+
+.name-profile {
+  font-size: 40px;
+  color: #4162f4;
+  padding-bottom: 50px;
+}
+
+.sub-profile {
+  padding-bottom: 70px;
+}
+
+.jumbotron {
+  background: #f7f7f7;
+}
+
+header {
+  background: #4162f4;
+  height: 360px;
+  width: 100%;
+  position: relative;
+  border-bottom:32px solid #fff;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  max-width: 600px;
+  align-items:flex-start;
+  justify-content: space-between;
+}
+
+ul {
+  margin: auto;
+  padding: auto;
+}
+
+a {
+  background: #fff;
+  color: #4162f4;
+  text-decoration: none;
+  text-align: center;
+  display: flex;
+  font-size: 16px;
+  padding: 0 20px;
+  border-radius: 10%;
+}
+
+a:hover {
+  color: #fff;
+  background: #4162f4;
+  text-decoration: none;
+}

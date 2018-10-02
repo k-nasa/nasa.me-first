@@ -1,12 +1,8 @@
 import React from 'react'
 import { Link  } from 'react-router-dom'
+import icon from './../assets/icon.jpg'
 
 export default () => (
-  <div>
-    Home
-    <Link to='/sub'>
-      <p>sub</p>
-    </Link>
+  <div class='container'>
   </div>
 )
-

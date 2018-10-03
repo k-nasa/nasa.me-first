@@ -19,7 +19,7 @@ export default () => (
       <p className='name-profile'>nasa</p>
       <p className="sub-profile lead text-muted">サーバーサイドエンジニア見習いです</p>
       <nav>
-        <ul>
+        <ul class='links'>
           <li><a href='https://twitter.com/htilc' className='btn'>Twitter </a></li>
           <li><a href='https://github.com/k-nasa' className='btn'>GitHub  </a></li>
           <li><a href='https://nasaemon.hateblo.jp/' className='btn'>Blog    </a></li>

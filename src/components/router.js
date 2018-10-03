@@ -1,16 +1,18 @@
 import React from 'react'
-import { Link, BrowserRouter as Router, Route } from 'react-router-dom'
+import { Link, HashRouter as Router, Route } from 'react-router-dom'
 import Home from './home'
 import Profile from './profile'
-import Header from './header'
+import Works from './works'
+import Menu from './menue'
 
 export default () => (
   <main>
     <Router>
       <div>
-        <Route exact path="" component={Home}/>
-        <Route path="/sub" component={Profile}/>
-        <Header/>
+        <Route exact path="/" component={Home}/>
+        <Route exact path="/menu" component={Menu}/>
+        <Route exact path="/profile" component={Profile}/>
+        <Route exact path="/works" component={Works}/>
       </div>
     </Router>
   </main>

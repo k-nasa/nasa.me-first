@@ -95,6 +95,6 @@ a:hover {
 .menu-button:hover {
   color: #fff;
   text-decoration: none;
-  background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
-  border: none;
+  background: #FFF ;
+  border: solid 3px #283c5f;
 }

@@ -42,8 +42,31 @@
   top: 23px;
 }
 .menu-button div:nth-child(3) {
-  top: 36px;
+  top: 40px;
 }
+
+.menu-close-button{
+  top: 10px;
+  right: 10px;
+  width: 100px;
+  height: 100px;
+  background: #FFF;
+  position: absolute;
+  border-radius: 10%;
+}
+
+.menu-close-button div {
+  background: #4162f4;
+  position: absolute;
+  top: calc(50% - 1px); 
+  left: 25px;
+  width: calc(100% - 50px); 
+  height: 2px;
+  border-radius: 10px;
+}
+
+.menu-close-button div:nth-child(1) { transform: rotate(45deg); }
+.menu-close-button div:nth-child(2) { transform: rotate(-45deg); }
 
 .sub-profile {
   padding-bottom: 70px;
@@ -92,6 +115,12 @@ a:hover {
 }
 
 .menu-button:hover {
+  color: #fff;
+  text-decoration: none;
+  background: #FFF ;
+  border: solid 3px #283c5f;
+}
+.menu-close-button:hover {
   color: #fff;
   text-decoration: none;
   background: #FFF ;

@@ -5,8 +5,7 @@ import icon from './../assets/icon.jpg'
 export default () => (
   <div>
     <header>
-      <Link to='/' className='menu-button'>
-        <div></div>
+      <Link to='/' className='menu-close-button'>
         <div></div>
         <div></div>
       </Link>

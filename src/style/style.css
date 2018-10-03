@@ -18,14 +18,15 @@
   right: 10px;
   width: 60px;
   height: 56px;
-  background-color: #FFF;
+  background: #FFF;
   position: absolute;
+  border-radius: 10%;
 }
 
 .menu-button div {
   width: 30px;
   height: 4px;
-  background: #283c5f;
+  background: #4162f4;
   position: absolute;
   border-radius: 10%;
   margin: 0 13px;
@@ -33,18 +34,16 @@
 }
 
 .menu-button div:nth-child(1) {
-  margin-top: 6px;
+  margin-top: 8px;
   margin-bottom: 6px;
   top:4px;
 }
 .menu-button div:nth-child(2) {
-  margin-top: 6px;
-  margin-bottom: 6px;
-  top: 22px;
+  margin-bottom: 0px;
+  top: 23px;
 }
 .menu-button div:nth-child(3) {
-  margin-top: 6px;
-  top: 38px;
+  top: 36px;
 }
 
 .sub-profile {

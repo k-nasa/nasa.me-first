@@ -5,6 +5,11 @@ import icon from './../assets/icon.jpg'
 export default () => (
   <div>
     <header>
+      <button className='menu-button'>
+        <div></div>
+        <div></div>
+        <div></div>
+      </button>
       <div class='text-center bg-gradient-primary'>
         <img class='profile-icon'src={icon} />
       </div>

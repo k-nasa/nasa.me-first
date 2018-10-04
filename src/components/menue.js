@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link  } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import icon from './../assets/icon.jpg'
 
 export default () => (

@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link  } from 'react-router-dom'
 import icon from './../assets/icon.jpg'
+import '../style/home.css'
 
 export default () => (
   <div>

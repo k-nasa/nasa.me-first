@@ -14,7 +14,8 @@ export default () => (
           <div class="card-body">
             <h5 class="card-title">Profile</h5>
             <p class="card-text">
-              RustとかDartを書いてる人。サーバーサイドエンジニア見習い。お仕事ではRails/Reactを書いてる
+              RustとかDartを書いてる人。サーバーサイドエンジニア見習い。<br/>
+              お仕事ではRails/Reactを書いてる
               </p>
           </div>
         </Link>

@@ -36,9 +36,9 @@ export default () => (
         <div className='card'>
           <div class="card-body">
             <h5 class="card-title text-center carrer">Carrer</h5>
-            <li>Money Forward  エンジニアバイト (18/1 ~ )</li>
-            <li>エウレカ        エンジニアインターン (18/9/4 ~ 9/14)</li>
             <p class="card-text">
+              <li>Money Forward  エンジニアバイト (18/1 ~ )</li>
+              <li>エウレカ        エンジニアインターン (19/9/4 ~ 9/14)</li>
             </p>
           </div>
         </div>

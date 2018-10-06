@@ -66,13 +66,17 @@ ul {
   padding: auto;
 }
 
+.links {
+  padding: 0;
+}
+
 header a, .links a {
   background: #fff;
   color: #4162f4;
   text-decoration: none;
   text-align: center;
-  display: flex;
   font-size: 16px;
+  display: flex;
   border-radius: 10%;
 }
 

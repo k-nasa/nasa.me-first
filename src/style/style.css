@@ -11,9 +11,9 @@
 .menu-close-button div {
   background: #4162f4;
   position: absolute;
-  top: calc(50% - 1px); 
+  top: calc(50% - 1px);
   left: 25px;
-  width: calc(100% - 50px); 
+  width: calc(100% - 50px);
   height: 2px;
   border-radius: 10px;
 }

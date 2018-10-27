@@ -23,9 +23,8 @@ export default () => (
     </header>
     <div className='raw'>
       <div className='cards row'>
-        <div className='card col-md-5'>
+        <div className='card col-md-6'>
           <a href='https://github.com/k-nasa/BoonoMobile'>
-            <img class="card-img-top" src={boono} alt="Card image cap" />
             <div class="card-body">
               <h5 class="card-title text-center">Boono Mobile</h5>
               <p class="card-text">
@@ -36,9 +35,8 @@ export default () => (
             </div>
           </a>
         </div>
-        <div className='card col-md-5'>
+        <div className='card col-md-6'>
           <a href='https://github.com/k-nasa/BoonoAPI'>
-            <img class="card-img-top" src={boono2} alt="Card image cap" />
             <div class="card-body">
               <h5 class="card-title text-center carrer">Boono API</h5>
               <p class="card-text">
@@ -48,9 +46,8 @@ export default () => (
             </div>
           </a>
         </div>
-        <div className='card col-md-5'>
+        <div className='card col-md-6'>
           <a href='https://github.com/k-nasa/line-book-bot'>
-            <img class="card-img-top" src={lineBotImage} alt="Line Book Bot" />
             <div class="card-body">
               <h5 class="card-title text-center carrer">Line Book Bot</h5>
               <p class="card-text">
@@ -60,9 +57,8 @@ export default () => (
             </div>
           </a>
         </div>
-        <div className='card col-md-5'>
+        <div className='card col-md-6'>
           <a href='https://github.com/k-nasa/rmemo'>
-            <img class="card-img-top image" src={rmemo} alt="Card image cap" />
             <div class="card-body">
               <h5 class="card-title text-center carrer">rmemo</h5>
               <p class="card-text">
@@ -74,9 +70,8 @@ export default () => (
             </div>
           </a>
         </div>
-        <div className='card col-md-5'>
+        <div className='card col-md-6'>
           <a href='https://github.com/k-nasa/nasa.me'>
-            <img class="card-img-top image" src={portfolioSite} alt="ポートフォリオサイト" />
             <div class="card-body">
               <h5 class="card-title text-center carrer">ポートフォリオサイト</h5>
               <p class="card-text">

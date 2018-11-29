@@ -6,17 +6,17 @@ import '../style/profile.css'
 export default () => (
   <div className='menu profile'>
     <header>
-    <nav calssName='nav'>
-      <Link to='/' className='menu-close-button'>
-        <div></div>
-        <div></div>
-      </Link>
-    </nav>
+      <nav calssName='nav'>
+        <Link to='/' className='menu-close-button'>
+          <div></div>
+          <div></div>
+        </Link>
+      </nav>
       <div className='text-center bg-gradient-primary'>
         <img className='profile-icon'src={icon} />
       </div>
     </header>
-      <div className='raw'>
+    <div className='raw'>
       <div className='cards '>
         <div className='card'>
           <div class="card-body">
@@ -37,11 +37,11 @@ export default () => (
             <h5 class="card-title text-center carrer">Carrer</h5>
             <p class="card-text">
               <li>Money Forward  エンジニアバイト (18/1 ~ )</li>
-              <li>エウレカ        エンジニアインターン (19/9/4 ~ 9/14)</li>
+              <li>エウレカ       エンジニアインターン (19/9/4 ~ 9/14)</li>
             </p>
           </div>
         </div>
-        </div>
       </div>
+    </div>
   </div>
 )

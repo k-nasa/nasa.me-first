@@ -2,7 +2,7 @@
   "name": "nasa_profile",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://k-nas.github.io/nasa.me",
+  "homepage": "https://nasa-me-first.netlify.com/",
   "dependencies": {
     "bootstrap": "^4.1.3",
     "react": "^16.5.2",
